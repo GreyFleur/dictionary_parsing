@@ -58,6 +58,6 @@ article_example = """<p> <hi rendition="simple:bold">БЕТЕЛЬ</hi> 1766, 
 1783 237. <hi rendition="simple:bold">Бетелев,</hi> а, о. Индѣйцы жуют
 листы Бетелевы. Сл. комм. I 177.</p>"""
 
-# find_etymologies(article_example)
+print(find_etymologies(article_example))
 
-go_through_articles('data\samples_json')
+# go_through_articles('data\samples_json')
