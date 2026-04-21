@@ -5,9 +5,9 @@ from typing import Callable
 from gui import ParsingApp
 import tkinter as tk
 
-def process_article(source_path: str, target_path: str, logger_func: Callable[[str], None]):
+def process_article(source_single_file: str, target_path: str, logger_func: Callable[[str], None]):
     '''функция-заглушка для демонстрации'''
-    logger_func(f"Processing article: {source_path}")
+    logger_func(f"Processing article: {source_single_file}")
     
     if random.random() < 0.25:
         raise ValueError("Random simulation error")

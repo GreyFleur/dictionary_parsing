@@ -1,5 +1,5 @@
 import os
-import threading
+import threading # для многопоточности 
 import time
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
